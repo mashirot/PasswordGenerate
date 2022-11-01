@@ -30,6 +30,9 @@ fun main(args: Array<String>) {
         }
         passwords.add(password.toString())
     }
-    println(passwords)
+    println("==========结果==========")
+    for (i in 0 until passwords.size) {
+        println(passwords[i])
+    }
 
 }
